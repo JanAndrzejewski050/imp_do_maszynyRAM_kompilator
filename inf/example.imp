@@ -1,0 +1,7 @@
+var x, y;
+begin
+  read x;
+  read y;
+  if (x = 1 and y = 1) then write 1 else write 0;
+  if (x = 1 or y = 1) then write 1 else write 0;
+end
